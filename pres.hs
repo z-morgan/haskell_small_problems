@@ -1,2 +1,3 @@
--- double :: Integer -> Integer
-double x = x + x
+class Eq a where
+  (==) :: a -> a -> Bool
+  (/=) :: a -> a -> Bool
